@@ -1,1 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Profil Sekolah</title>
 
+    <style>
+        body {
+            margin: 0;
+            font-family: Bubblegum Sans;
+            line-height: 1;
+        }
+
+        header {
+            background-color:#db3434;
+            padding: left 10px 0;
+        }
+
+        .nav {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        
+
+        .logo {
+            width: 50px;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav ul li {
+            margin: 0 10px;
+        }
+
+        .nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('img/gedung.jpg') center/cover no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+        
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .section {
+            padding: 40px 0;
+        }
+
+        .gray {
+            background: #f4f4f4;
+        }
+
+        .sambutan {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .sambutan img {
+            width: 300px;
+            border-radius: 5px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 5px;
+        }
+
+        footer {
+            background: #db3434;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .nav ul {
+                flex-wrap: wrap;
+            }
+
+            .sambutan {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 24px;
+            }
+        }
+
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+        }
+
+        table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+        }
+
+        table th {
+    background-color: #db3434;
+    color: white;
+        }
+
+        .chart {
+    margin-top: 20px;
+        }
+
+        .bar {
+    background-color: #db3434;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="nav">
+        <img src="img/logo_sekolah.png" class="logo" alt="Logo Sekolah">
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#organisasi">Organisasi</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#fasilitas">Fasilitas</a></li>
+            <li><a href="#prestasi">Prestasi</a></li>
+            <li><a href="#berita">Berita</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#ppdb">PPDB</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+            <li><a href="#kependidikan">kependidikan</a></li>
+            <li><a href="#data">Data Siswa</a></li>
+        </ul>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>SMK SULTAN ISKANDAR MUDA</h1>
+        <p>"SMK Bisa! SMK Sultan Luar Biasa dan Hebat!"</p>
+    </div>
+</section>
+
+<section class="container section sambutan">
+    <img src="img/gedung.jpg" alt="Gedung Sekolah">
+    <div>
+        <h2>Sambutan Kepala Sekolah</h2>
+        <p>
+            Selamat datang di website resmi SMK Unggulan.
+            SMK Swasta Sultan Iskandar Muda sebagai sekolah vokasi unggulan membekali siswa dengan keterampilan praktis 
+            melalui Teaching Factory dan terus menjadi rujukan pendidikan yang relevan dengan dunia industri.</p>
+    </div>
+</section>
+
+<section id="profil" class="section gray">
+    <div class="container">
+        <h2>Profil Sekolah</h2>
+        <p><b>Sejarah:</b> Smk Sultan Iskandar Muda yang Didirikan oleh Dr. Sofyan Tan (didirikan pada 25 Agustus 1987).</p>
+        <p><b>Visi:</b> Terwujudnya sekolah vokasi yang humanis, inklusif, dan unggul dalam mencetak lulusan berkarakter multikultural yang kompeten serta siap bersaing di dunia industri global.</p>
+        <p><b>Misi :
+        <p></b> Mencetak lulusan kompeten yang siap kerja.</p>
+        <p></b> Menanamkan karakter toleransi dan multikultural.</p>
+        <p></b> Menyelenggarakan pendidikan berbasis industri.</p>
+        <p></b> Menyediakan akses pendidikan inklusif (subsidi silang)</p>
+        <p><b>Tujuan pendidikan :
+        <p></b>Membangun Generasi Multikultural, Inklusif, dan Berkelanjutan.<p></b>
+        </ul>
+        <p><b>Identitas:</b> NPSN 10211075. | Akreditasi A | Status Swasta</p>
+    </div>
+</section>
+
+<section id="organisasi" class="section">
+    <div class="container">
+        <h2>Struktur Organisasi</h2>
+        <p>Bagan Kepemimpinan Sekolah Periode 2025/2026</p>
+        </ul>
+    </div>
+</section>
+
+<section id="Tenaga pendidik & Kependidikan" class="section gray">
+    <div class="container">
+        <h2>Staf pengajar dan tenaga kependidikan</h2>
+        <p>Tenaga pendidik dan kependidikan dipimpin oleh : Finche Kosmanto, SE., M.Psi.</p>
+        <p>Kepala SMK Inovatif Terfavorit Tingkat Nasional dijabat oleh : Melda Susanti Sihite, S.Pd.,</p>
+        <p>Wakil Kepala Sekolah Bidang Kurikulum dijabat oleh : Arman Setiawan, S.T.</p>
+        <p>Kepala Jurusan Keahlian Desain Komunikasi Visual (DKV) dijabat oleh : Ridwan, S.Sn..</p>
+        <p>Kepala Jurusan Akuntansi dijabat oleh : Melda Susanti Sihite, S.Pd.,</p>
+        <p>Kepala Jurusan RPL dijabat oleh : Ridwan, S.Sn.</p>
+        </ul>
+    </div>
+</section>
+
+<section id="program" class="section">
+    <div class="container">
+        <h2>Program Pendidikan</h2>
+        <p>Kurikulum Merdeka</p>
+        <p>Konsentrasi Keahlian (Jurusan)</p>
+        <p>Program Unggulan & Metode Pembelajaran</p>
+        <p>Ekstrakurikuler: Futsal, Basket, Badminton, Tenis Meja, Atletik, hingga Barongsai.</p>
+    </div>
+</section>
+
+<section id="fasilitas" class="section gray">
+    <div class="container">
+        <h2>Fasilitas Sekolah</h2>
+        <ul>
+            <li>Ruang Kelas</li>
+            <li>Auditorium Bung Karno</li>
+            <li>Sarana ibadah Multikultural</li>
+            <li>Laboratorium & Studio</li>
+            <li>Perpustakaan</li>
+            <li>Lapangan Olahraga</li>
+            <li>Ruang Editing</li>
+        </ul>
+    </div>
+</section>
+
+<section id="prestasi" class="section">
+    <div class="container">
+        <h2>Prestasi Akademik & Kompetisi Keahlian</h2>
+        <p>Kompetisi Video Kreatif: Meraih Juara 1 dan Juara 2 dalam Lomba Video Pendek tingkat SMA/SMK serta masuk dalam "Top 5 Video Terbaik" pada ajang nasional pengembangan keahlian siswa.</p>
+        <p>Lulusan SNBP: Pada tahun 2025, sebanyak 159 siswa dari lingkungan Yayasan Perguruan Sultan Iskandar Muda (termasuk unit SMK) berhasil lolos ke Perguruan Tinggi Negeri melalui jalur prestasi (SNBP).</p>
+        <p>Juara Bidang Akuntansi (2025): Meraih prestasi membanggakan dalam ajang Accounting Competition KMPSPA 2025 tingkat SMK sederajat yang diselenggarakan oleh Universitas Negeri Medan (UNIMED).</p>
+        <p>Medali Perak Nasional (2025): Siswa jurusan DKV meraih Medali Perak Tingkat Nasional Bidang Bahasa Indonesia pada Kejuaraan Akademik Pelajar Indonesia.</p>
+    </div>
+</section>
+
+<section id="data" class="section">
+    <div class="container">
+        <h2>Data Siswa & Alumni</h2>
+
+        <h3>Data Jumlah Siswa Aktif</h3>
+        <table>
+            <tr>
+                <th>Jurusan</th>
+                <th>Jumlah Siswa</th>
+            </tr>
+            <tr>
+                <td>Akuntansi</td>
+                <td>180 – 250</td>
+            </tr>
+            <tr>
+                <td>DKV</td>
+                <td>150 – 200</td>
+            </tr>
+            <tr>
+                <td>RPL</td>
+                <td>30 – 70</td>
+            </tr>
+        </table>
+
+        <h3>Data Jumlah Alumni</h3>
+        <table>
+            <tr>
+                <th>Jurusan</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Akuntansi</td>
+                <td>jumlah akumulasi terbesar</td>
+            </tr>
+            <tr>
+                <td>DKV</td>
+                <td>alumni terbanyak kedua</td>
+            </tr>
+            <tr>
+                <td>RPL</td>
+                <td>alumni paling sedikit karena merupakan program keahlian terbaru</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="berita" class="section gray">
+    <div class="container">
+        <h2>Berita & Pengumuman</h2>
+        <p>1. Agenda & Kegiatan Terkini (Januari 2026)
+            Pentas Prestasi 2026: Yayasan Perguruan Sultan Iskandar Muda (YPSIM) menyelenggarakan ajang bakat bertajuk "Pentas Prestasi 2026: Bhinneka Berkarya". Pendaftaran dibuka hingga 24 Januari 2026 bagi siswa yang ingin menampilkan bakat seni, tari, dan kreativitas lainnya.
+            Awal Semester Genap: Siswa SMK telah kembali ke sekolah mulai 5 Januari 2026 untuk memulai kegiatan belajar mengajar semester genap tahun ajaran 2025/2026.
+            Porsaklas 2026: Baru-baru ini dilaksanakan ajang unjuk bakat siswa melalui Lomba Seni dan Pagelaran Seni dalam kegiatan Porsaklas pada awal Januari 2026. </p>
+        <p>2. Pengumuman Pendaftaran (PPDB 2025/2026)
+            Penerimaan Siswa Baru: Pendaftaran untuk tahun ajaran 2025/2026 masih berlangsung atau sedang dalam tahap penyelesaian kuota untuk konsentrasi keahlian:
+            Akuntansi dan Keuangan Lembaga (AKL)
+            Desain Komunikasi Visual (DKV)
+            Rekayasa Perangkat Lunak (RPL).
+            Program Anak Asuh: Informasi mengenai subsidi silang bagi siswa kurang mampu dapat dikonsultasikan melalui</p>
+        <p>2. Pengumuman Pendaftaran (PPDB 2025/2026)
+            Penerimaan Siswa Baru: Pendaftaran untuk tahun ajaran 2025/2026 masih berlangsung atau sedang dalam tahap penyelesaian kuota untuk konsentrasi keahlian:
+            Akuntansi dan Keuangan Lembaga (AKL)
+            Desain Komunikasi Visual (DKV)
+            Rekayasa Perangkat Lunak (RPL).
+            Program Anak Asuh: Informasi mengenai subsidi silang bagi siswa kurang mampu dapat dikonsultasikan melalui</p>
+        <p>3. Berita Kerja Sama & Prestasi Terkini
+            Kemitraan Industri: Pada akhir tahun 2025, SMK Sultan Iskandar Muda memperkuat kemitraan dengan menandatangani MoU bersama berbagai mitra industri untuk pelaksanaan Praktik Kerja Lapangan (PKL) siswa.
+            Keberhasilan Kelulusan: Tercatat sebanyak 159 siswa dari lingkungan yayasan (termasuk unit SMK) berhasil menembus Perguruan Tinggi Negeri melalui jalur SNBP pada periode kelulusan 2025</p>    
+    </div>
+</section>
+
+<section id="galeri" class="section">
+    <div class="container">
+        <h2>Galeri</h2>
+        <p>Dokumentasi foto dan video kegiatan sekolah.</p>
+    <img src="img/kegiatan.jpg" alt="kegiatan sekolah">
+    <img src="img/kegiatan2.jpg" alt="kegiatan sekolah">
+    </div>
+</section>
+
+<section id="ppdb" class="section gray">
+    <div class="container">
+        <h2>PPDB</h2>
+        <p>1. Jalur & Jadwal Pendaftaran
+            Status: Pendaftaran Gelombang I sedang berlangsung (Januari 2026).
+            Penawaran Khusus: Tersedia promo diskon biaya pendaftaran hingga 100% bagi pendaftar awal di bulan Januari 2026.
+            Batas Awal: Seleksi dan pendaftaran sering kali sudah dimulai sejak akhir Desember atau awal Januari untuk menjaring calon siswa berprestasi.</p>
+        <p>2. Pilihan Konsentrasi Keahlian (Jurusan)
+            Calon siswa dapat memilih salah satu dari tiga jurusan unggulan: 
+            Akuntansi dan Keuangan Lembaga (AKL)
+            Desain Komunikasi Visual (DKV)
+            Rekayasa Perangkat Lunak (RPL)</p>
+        <p>3. Syarat Pendaftaran Umum
+            Secara umum, berkas yang perlu disiapkan antara lain: 
+            Fotokopi Ijazah/Surat Keterangan Lulus (SKL) SMP/MTs sederajat.
+            Fotokopi Akta Kelahiran dan Kartu Keluarga (KK).
+            Pas foto terbaru (biasanya ukuran 3x4).
+            Dokumen pendukung untuk jalur prestasi atau Program Anak Asuh (bagi keluarga kurang mampu). </p>
+        <p>Cara Mendaftar
+            Pendaftaran dapat dilakukan melalui dua cara:
+            Online: Melalui tautan resmi di Laman PPDB YPSIM atau memindai kode QR yang tersedia di akun media sosial resmi sekolah.
+            Offline: Datang langsung ke sekretariat pendaftaran di kompleks Yayasan Perguruan Sultan Iskandar Muda, Jl. Sunggal Gg. Bakul, Medan.</p>
+    </div>
+</section>
+
+<section id="kontak" class="section">
+    <div class="container">
+        <h2>Kontak & Lokasi</h2>
+        <p>Jl. Sunggal Gg. Bakul / Jl. Tengku Amir Hamzah, Lingkungan XI, Kelurahan Sunggal, Kecamatan Medan Sunggal, Kota Medan, Sumatera Utara, Kode Pos 20128.</p>
+        <p>Email: smk@ypsim.sch.id atau admin@ypsim.com.</p>
+        <p>Telepon: (061) 8457702 atau (061) 8457033.</p>
+    </div>
+
+    <iframe 
+        src="https://maps.google.com/maps?q=Medan&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+</section>
+
+
+<footer>
+    <p>© 2026 SMK Sultan Iskandar Muda</p>
+</footer>
+
+<script>
+    alert("Selamat datang di Website SMK Sultan Iskandar Muda");
+</script>
+
+</body>
+</html>
